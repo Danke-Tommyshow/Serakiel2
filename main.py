@@ -16,7 +16,7 @@ intents.members = True
 intents.message_content = True
 
 # Crear bot
-bot = commands.Bot(command_prefix="$", intents=intents)
+bot = commands.Bot(command_prefix="#$#", intents=intents)
 
 # Diccionario de rangos por puntos
 rangos = [
